@@ -7,7 +7,7 @@ Created on Tue Nov 14 00:35:41 2017
 
 #program for fibonacci numbers using recursion
 #input n=9
-#output n=34
+#output - 34
 
 def fib(n):
     if(n<0):
