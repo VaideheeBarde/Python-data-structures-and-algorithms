@@ -6,6 +6,9 @@ Created on Wed Nov 15 00:27:03 2017
 """
 
 #first non-repeating character in a string
+#case-sensitive
+#you will have to convert everything into lower case and then execute if you don't want it to be case sensitive
+
 #output= H
 
 def count_char(string):
