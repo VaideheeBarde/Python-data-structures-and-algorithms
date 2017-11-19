@@ -11,9 +11,16 @@ Created on Sat Nov 18 21:10:25 2017
 #input -
 #array = [5,9,12,6,8]
 #target - 20
-
 #output -
 #array = [2,4]
+
+#input -
+#array = [1,9,6,7,2,5]
+#target - 7
+#output -
+#array = 
+#[0,2]
+#[4,5]
 
 def sums(arr,target,l):
     a=list()
