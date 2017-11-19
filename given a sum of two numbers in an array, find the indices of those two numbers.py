@@ -23,6 +23,7 @@ def sums(arr,target,l):
                 a.append(i)
                 a.append(j)
                 print(a)
+                a=list()
     
 arr=list()
 l=int(input("Enter how many elements"))
