@@ -6,7 +6,6 @@ Created on Sat Nov 18 21:10:25 2017
 """
 
 #given an array of integers, return indices of those two numbers such that they add up to a specific target
-#Assumption - Each input should have one solution exactly. The same element cannot be used twice.
 
 #input -
 #array = [5,9,12,6,8]
