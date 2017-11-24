@@ -5,6 +5,9 @@ Created on Fri Nov 24 15:00:58 2017
 @author: Vaidehee
 """
 
+#input-2000 output-20
+#input-2101 output-22
+
 def find_century(year):
     century=int(year/100)
     arr=list()
