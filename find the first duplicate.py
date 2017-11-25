@@ -6,6 +6,8 @@ Created on Sat Nov 25 09:53:43 2017
 """
 
 #find the first duplicate
+#input - [1,2,2,3,4,3] output -2
+#input - [1,2] output - No duplicates
 
 def first_duplicate(a):
     l=len(a)
