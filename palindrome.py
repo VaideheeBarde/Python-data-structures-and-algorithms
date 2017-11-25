@@ -5,7 +5,7 @@ Created on Mon Nov 20 23:03:25 2017
 @author: Vaidehee
 """
 
-#palindrome
+#palindrome number
 
 #input - 121 output - palindrome
 #input - 12321 output - palindrome
