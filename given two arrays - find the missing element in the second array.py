@@ -13,7 +13,9 @@ Created on Tue Mar 27 10:23:34 2018
 #output
 #7
 
-def finder(arr1, arr2):
+#############################__method1__#################################
+
+def finder1(arr1, arr2):
     
     num = 0
     
@@ -25,4 +27,21 @@ def finder(arr1, arr2):
         
     return num
     
-finder(arr1, arr2)
+finder1(arr1, arr2)
+
+
+###########################__method2__##################################
+
+def finder2(arr1, arr2):
+    
+    arr1.sort()
+    arr2.sort()
+    
+    for num1, num2 in zip(arr1, arr2):
+        if num1!=num2:
+            return num1
+    
+    return arr1[-1]
+
+finder2(arr1, arr2)
+
