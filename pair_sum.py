@@ -32,7 +32,7 @@ def pair_array(arr, k):
         else:
             output.add((min(target,num), max(target,num)))
             
-    print(output)
+    print('\n'.join(map(str, list(output))))
 
 arr=[1,2,3,4]
 k=5    
