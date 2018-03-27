@@ -46,7 +46,7 @@ def finder2(arr1, arr2):
 finder2(arr1, arr2)
 
 
-##########################__method3__#####################################
+#############################__method3__#####################################
 
 import collections
 
@@ -64,4 +64,18 @@ def finder3(arr1, arr2):
             d[num] -= 1
             
 finder3([5,5,7,7], [5,5,7])
+
+
+#################################__method4__####################################
+
+def finder4(arr1, arr2):
+    
+    result = 0
+    
+    for num in arr1+arr2:
+        result^=num
+        
+    return result
+
+finder4(arr1, arr2)
 
