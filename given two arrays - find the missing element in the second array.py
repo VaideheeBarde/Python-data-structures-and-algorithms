@@ -45,3 +45,23 @@ def finder2(arr1, arr2):
 
 finder2(arr1, arr2)
 
+
+##########################__method3__####################################
+
+import collections
+
+def finder3(arr1, arr2):
+    
+    d=collections.defaultdict(int)
+    
+    for num in arr2:
+        d[num] += 1
+        
+    for num in arr1:
+        if d[num] == 0:
+            print(num)
+        else:
+            d[num] -= 1
+            
+finder3([5,5,7,7], [5,5,7])
+
