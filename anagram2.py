@@ -24,7 +24,7 @@ def anagram(a,b):
         if letter in counter:
             counter[letter]-=1
         else:
-            return False
+            counter[letter]=1
         
     for k in counter:
         if counter[k]!=0:
