@@ -19,6 +19,9 @@ Created on Mon Mar 26 20:24:37 2018
 
 def pair_array(arr, k):
     
+    if len(arr)<2:
+        return
+    
     seen=set()
     output=set()
     
