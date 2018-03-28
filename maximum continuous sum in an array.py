@@ -18,11 +18,11 @@ def max_continuous_sum(arr):
     elif len(arr) == 1:
         return arr[0]
     
-    max_sum = total = arr[0]
+    max_sum = current_sum = arr[0]
         
     for n in arr[1:]:
-        total = max(total+n, n)
-        max_sum = max(max_sum, total)
+        current_sum = max(current_sum+n, n)
+        max_sum = max(max_sum, current_sum)
         
     return max_sum
 
