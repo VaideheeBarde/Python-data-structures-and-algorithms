@@ -26,5 +26,5 @@ def max_continuous_sum(arr):
         
     return max_sum
 
-max_continuous_sum([1,2,-1,3,4,10,10,-10,-1])
+max_continuous_sum(arr)
 
