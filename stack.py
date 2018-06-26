@@ -20,3 +20,15 @@ class Stack(object):
         return self.items[len(self.items)-1]
     def size(self):
         return len(self.items)
+    
+    #output
+    #s=Stack()
+    #s.isEmpty()
+    #False
+    #s.push(5)
+    #s.push(True)
+    #s.peek()
+    #True
+    #s.pop()
+    #s.size()
+    #1
