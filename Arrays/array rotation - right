@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jan  6 13:43:36 2019
+
+@author: vaidehee_barde
+"""
+
+def rotateRight(arr,d):
+    for i in range(d):
+        rotateRightByOne(arr)
+        
+def rotateRightByOne(arr):
+    n=len(arr)
+    temp=arr[n-1]
+    for i in range(n-1,0,-1):
+        arr[i]=arr[i-1]
+    arr[0]=temp
+    
+def printArray(arr):
+    for i in range(len(arr)):
+        print("%d" %arr[i], end=" ")
+        
+arr=[1,2,3,4,5]
+rotateRight(arr, 2)
+printArray(arr)
