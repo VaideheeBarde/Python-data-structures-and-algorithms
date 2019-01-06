@@ -6,6 +6,7 @@ Created on Sun Jan  6 13:10:02 2019
 @author: vaidehee_barde
 """
 
+#function to reverse the array
 def reverseArray(arr):
     start=0
     end=len(arr)-1
@@ -16,10 +17,15 @@ def reverseArray(arr):
         start+=1
         end-=1
         
+#function to print the array
 def printArray(arr):
     for i in range(len(arr)):
         print(arr[i], end=" ")
         
+#test function        
 arr=[1,2,3,4,5]
 reverseArray(arr)
 printArray(arr)
+
+#output
+#5 4 3 2 1 
