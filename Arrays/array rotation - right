@@ -6,21 +6,28 @@ Created on Sun Jan  6 13:43:36 2019
 @author: vaidehee_barde
 """
 
+#function to rotate an array on right
 def rotateRight(arr,d):
     for i in range(d):
         rotateRightByOne(arr)
-        
+ 
+#function to rotate the array on right by one
 def rotateRightByOne(arr):
     n=len(arr)
     temp=arr[n-1]
     for i in range(n-1,0,-1):
         arr[i]=arr[i-1]
     arr[0]=temp
-    
+ 
+#function to print an array
 def printArray(arr):
     for i in range(len(arr)):
         print("%d" %arr[i], end=" ")
         
+#driver function
 arr=[1,2,3,4,5]
 rotateRight(arr, 2)
 printArray(arr)
+
+#output
+#4 5 1 2 3 
