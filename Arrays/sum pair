@@ -16,3 +16,7 @@ for i in range(len(arr)):
         print(temp, arr[i])
     else:
         map1[arr[i]]=1
+        
+#output
+#12 4
+#1 15
