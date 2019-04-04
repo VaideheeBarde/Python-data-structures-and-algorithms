@@ -8,7 +8,7 @@ Created on Mon Nov 13 14:58:27 2017
 #bubble-sort
 
 #input - Your array [6,2,8,1]
-#output - Array after performing the bubble sort [1,,2,6,8]
+#output - Array after performing the bubble sort [1,2,6,8]
 
 def bubble_sort(a,l):
 #Traversing through the entire array
